@@ -1,0 +1,9 @@
+ul .list-group-item {
+  display: inline-flex;
+  width: auto;
+  vertical-align: top;
+  flex-wrap: wrap;
+}
+ul {
+  padding-bottom: 20px;
+}
