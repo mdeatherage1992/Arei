@@ -4,9 +4,17 @@ ul .list-group-item {
   vertical-align: top;
   flex-wrap: wrap;
 }
-ul {
-  padding-bottom: 20px;
+ul .list-group-item:hover {
+  display: inline-flex;
+  width: auto;
+  vertical-align: top;
+  flex-wrap: wrap;
 }
+ul {
+
+}
+
+
 /* .facebook-video-id {
 position:absolute;
 z-index:-1;
@@ -18,8 +26,9 @@ height:80%;
 
 .facebook-video-id{
   width: 100%;
-  z-index: -1;
   height: 100%;
+  z-index: -1;
+  height: 150%;
   position: absolute;
   padding: 0;
   margin: 0;
@@ -28,19 +37,57 @@ height:80%;
   overflow: hidden;
 }
 
-.jumbotron {
-  margin: 10px;
-  padding: 30px;
-  width: 800px;
+#one{
+text-align:center;
+position:relative;
+width: 800px;
+left: 300px;
+}
+
+.footer {
   position: relative;
-  left: 300px;
+  left: 0;
+  bottom:0;
+  height:200px;
+  width: 100%;
+  background-color:#4286f4;
+  color: white;
+  text-align: center;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+
+
+.list-group-item {
+  height:50px;
+  width: 50px;
+}
+
+.left{
+text-align:left;
+margin-left: 100px;
+float:left;
+}
+.right{
+float:right;
+margin-right: 100px;
+text-align:right;
+}
+.centered{
+text-align:center;
+}
+
+#two{
+  width: 80%;
+  position: relative;
+  left: 150px;
   border-radius: 2px;
   text-align:center;
 }
 
 .logo-img {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   position: fixed;
   left: 0;
   top: 0;

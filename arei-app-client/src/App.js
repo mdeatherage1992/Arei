@@ -26,6 +26,11 @@ class App extends Component {
           <Route path="/types" component={Types} />
         </div>
       </Router>
+      <div class="footer">
+      <p className="left">Left aligned text here<br />Next line here</p>
+      <p className="right">Right aligned text here<br />Next line here</p>
+      <p className="centered">Center Text here<br />Next line here</p>
+      </div>
       </div>
     );
   }

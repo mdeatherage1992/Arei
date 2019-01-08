@@ -17,13 +17,17 @@ class Home extends Component {
       <div className="App">
       <div className="facebook-video-id"><video controls false muted id="video-id" src={myVideo} autoPlay={true} loop={true} type="video/mp4" /></div>
       <div id="jumbo">
-      <Jumbotron>
+      <Jumbotron id="one">
       <h1>E-Commerce App</h1>
       <p>
         E-Commerce Main page which will showcase the types of clothing
         on the site. In gridded, video background buttons.
       </p>
     </Jumbotron>
+    <Jumbotron id="two">
+    <h1>What are You Looking For?</h1>
+    <Types />
+  </Jumbotron>
       </div>
       </div>
     );
