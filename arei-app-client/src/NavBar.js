@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav } from 'react-bootstrap';
-
+import logo from './logo.png'
 export default class NavBar extends Component {
   render() {
   return (
     <Navbar>
             <Navbar.Header>
               <Navbar.Brand>
+              <img className="logo-img"src={logo} />
                 <a href="home">E-Commerce Store</a>
               </Navbar.Brand>
             </Navbar.Header>
