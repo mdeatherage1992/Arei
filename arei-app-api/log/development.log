@@ -7031,3 +7031,1058 @@ Processing by Api::V1::TypesController#index as JSON
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:37:55 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (7.1ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 52ms (Views: 4.8ms | ActiveRecord: 47.3ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:38:23 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:39:15 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:40:03 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.3ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:40:33 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.3ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:41:15 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:41:59 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:42:28 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:42:57 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.3ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:43:27 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.4ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:44:26 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.5ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/v1/types" for 127.0.0.1 at 2019-01-08 14:45:11 -0500
+Processing by Api::V1::TypesController#index as JSON
+  [1m[36mType Load (0.3ms)[0m  [1m[34mSELECT "types".* FROM "types"[0m
+  ↳ app/controllers/api/v1/types_controller.rb:7
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mType Load (6.1ms)[0m  [1m[34mSELECT  "types".* FROM "types" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mType Load (0.5ms)[0m  [1m[34mSELECT  "types".* FROM "types" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mType Destroy (14.0ms)[0m  [1m[31mDELETE FROM "types"[0m
+  [1m[36mType Load (0.5ms)[0m  [1m[34mSELECT  "types".* FROM "types" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Destroy (13.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mAdmin Destroy (0.9ms)[0m  [1m[31mDELETE FROM "admins"[0m
+  [1m[36mProduct Destroy (19.0ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  "products".* FROM "products" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mType Load (0.3ms)[0m  [1m[34mSELECT  "types".* FROM "types" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to CreateAreas (6)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (126.4ms)[0m  [1m[35mCREATE TABLE "areas" ("id" serial NOT NULL PRIMARY KEY, "name" character varying, "type" character varying, "coordinates" integer[])[0m
+  ↳ db/migrate/06_create_areas.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "6"]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Exists (6.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:1
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 2], ["user_coordinate", "{2,3}"], ["email", "user@gmail.com"], ["encrypted_password", "$2a$11$BfXVnAFkiV0/.p9WNPlJjuppfD61bGJSE/hUyeBKFYTJ.Kv3t4w1u"]]
+  ↳ db/seeds.rb:1
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user1@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 3], ["user_coordinate", "{2,4}"], ["email", "user1@gmail.com"], ["encrypted_password", "$2a$11$dPQ.dJNZj5.gLntwS2lnEOm6LuoidRMsWGuQsLp78CO/tCHgwmcTi"]]
+  ↳ db/seeds.rb:2
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user2@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 4], ["user_coordinate", "{2,5}"], ["email", "user2@gmail.com"], ["encrypted_password", "$2a$11$8h4fXGt23FvWtmJwZmpFi.VnNbNc9a3dMfYPJutk2VBruDxemZ4PC"]]
+  ↳ db/seeds.rb:3
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user3@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:4
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 5], ["user_coordinate", "{2,6}"], ["email", "user3@gmail.com"], ["encrypted_password", "$2a$11$FV89oldT5O0tkevvzVvjmuWn8OTPRNyHmpRnrvntQ7v5ZN5U3Ahf."]]
+  ↳ db/seeds.rb:4
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user4@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 6], ["user_coordinate", "{2,7}"], ["email", "user4@gmail.com"], ["encrypted_password", "$2a$11$1iYNmKLuL6ppRVEaPWJnZe03oPru5ysFLHjFT7SSjmriLw7hKil1."]]
+  ↳ db/seeds.rb:5
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user5@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 7], ["user_coordinate", "{2,8}"], ["email", "user5@gmail.com"], ["encrypted_password", "$2a$11$azpqzoW5ufQ0fTWH1AkP.O9Lzh1UWZ/Y3Bi5z5QF5MAbC.K8OtThy"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user6@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 8], ["user_coordinate", "{2,9}"], ["email", "user6@gmail.com"], ["encrypted_password", "$2a$11$kB2x5X285BajgIfks2eAxuDhEP.JTyy0MU8Q/LG9K1aJrY8z8Z.Zq"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user7@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 9], ["user_coordinate", "{1,3}"], ["email", "user7@gmail.com"], ["encrypted_password", "$2a$11$pLiILFm4baz5B1HTzW7IvOiWB7oeb/myUGlVeEPIhw3lg4o25o4Wq"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user8@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 10], ["user_coordinate", "{3,3}"], ["email", "user8@gmail.com"], ["encrypted_password", "$2a$11$cT0aOPG3PJ1Ahk2J0FwlYOLZC5kqHHmCFYEB.Ws74WDWKjl/JMZzy"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user9@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("id", "user_coordinate", "email", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["id", 11], ["user_coordinate", "{4,3}"], ["email", "user9@gmail.com"], ["encrypted_password", "$2a$11$z7SaBcjN8nFd88O4ZYSY4OvvFQMapAWUbDQwVdyik8NNGVbuPkNLe"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (18.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sneaker"], ["tags", "{sneaker,men}"], ["price", 100], ["description", "this is the product"], ["coordinates", "{2,3}"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to ChangePointInProducts (7)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (39.1ms)[0m  [1m[35mALTER TABLE "products" ALTER COLUMN "coordinates" TYPE character varying[0m
+  ↳ db/migrate/07_change_point_in_products.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "7"]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (19.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user1@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user2@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user3@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user4@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user5@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user6@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user7@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user8@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user9@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sneaker"], ["tags", "{sneaker,men}"], ["price", 100], ["description", "this is the product"], ["coordinates", "[2, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shirts"], ["tags", "{shirt,women}"], ["price", 200], ["description", "this is the product"], ["coordinates", "[2, 4]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Socks"], ["tags", "{socks,winter}"], ["price", 300], ["description", "this is the product"], ["coordinates", "[2, 5]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Scarf"], ["tags", "{scarf,summer}"], ["price", 400], ["description", "this is the product"], ["coordinates", "[2, 6]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Jacket"], ["tags", "{jacket,just-in}"], ["price", 500], ["description", "this is the product"], ["coordinates", "[2, 7]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sweater"], ["tags", "{sweater,clearence}"], ["price", 600], ["description", "this is the product"], ["coordinates", "[2, 8]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Beachwear"], ["tags", "{beachwear,accessories}"], ["price", 700], ["description", "this is the product"], ["coordinates", "[2, 9]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sandals"], ["tags", "{sandals,fall}"], ["price", 800], ["description", "this is the product"], ["coordinates", "[2, 10]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shorts"], ["tags", "{shorts,spring}"], ["price", 900], ["description", "this is the product"], ["coordinates", "[3, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mType Create (0.6ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Men"], ["description", "Men's Clothing"], ["tags", "{men}"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Women"], ["description", "Women's Clothing"], ["tags", "{women}"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mType Create (0.4ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Winter"], ["description", "Winter Clothing"], ["tags", "{winter}"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Summer"], ["description", "Summer Clothing"], ["tags", "{summer}"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Spring"], ["description", "Spring Clothing"], ["tags", "{spring}"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fall"], ["description", "Fall Clothing"], ["tags", "{fall}"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Sale"], ["description", "Sale Clothing"], ["tags", "{sale}"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Clearence"], ["description", "Clearence Clothing"], ["tags", "{clearence}"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Just In"], ["description", "Just In Clothing"], ["tags", "{just-in}"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Unisex"], ["description", "Unisex Clothing"], ["tags", "{unisex}"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mType Create (0.2ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Accessories"], ["description", "Accessories"], ["tags", "{accessorcies}"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user1@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user2@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user3@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user4@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user5@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user6@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user7@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user8@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user9@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.9ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sneaker"], ["tags", "{sneaker,men}"], ["price", 100], ["description", "this is the product"], ["coordinates", "[2, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (11.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shirts"], ["tags", "{shirt,women}"], ["price", 200], ["description", "this is the product"], ["coordinates", "[2, 4]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (9.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Socks"], ["tags", "{socks,winter}"], ["price", 300], ["description", "this is the product"], ["coordinates", "[2, 5]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Scarf"], ["tags", "{scarf,summer}"], ["price", 400], ["description", "this is the product"], ["coordinates", "[2, 6]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Jacket"], ["tags", "{jacket,just-in}"], ["price", 500], ["description", "this is the product"], ["coordinates", "[2, 7]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sweater"], ["tags", "{sweater,clearence}"], ["price", 600], ["description", "this is the product"], ["coordinates", "[2, 8]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Beachwear"], ["tags", "{beachwear,accessories}"], ["price", 700], ["description", "this is the product"], ["coordinates", "[2, 9]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (10.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sandals"], ["tags", "{sandals,fall}"], ["price", 800], ["description", "this is the product"], ["coordinates", "[2, 10]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shorts"], ["tags", "{shorts,spring}"], ["price", 900], ["description", "this is the product"], ["coordinates", "[3, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mType Create (0.6ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Men"], ["description", "Men's Clothing"], ["tags", "{men}"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Women"], ["description", "Women's Clothing"], ["tags", "{women}"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Winter"], ["description", "Winter Clothing"], ["tags", "{winter}"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Summer"], ["description", "Summer Clothing"], ["tags", "{summer}"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mType Create (0.4ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Spring"], ["description", "Spring Clothing"], ["tags", "{spring}"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fall"], ["description", "Fall Clothing"], ["tags", "{fall}"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Sale"], ["description", "Sale Clothing"], ["tags", "{sale}"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Clearence"], ["description", "Clearence Clothing"], ["tags", "{clearence}"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mType Create (0.4ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Just In"], ["description", "Just In Clothing"], ["tags", "{just-in}"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Unisex"], ["description", "Unisex Clothing"], ["tags", "{unisex}"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Accessories"], ["description", "Accessories"], ["tags", "{accessorcies}"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user1@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user2@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user3@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user4@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user5@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user6@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user7@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user8@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user9@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (1.0ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sneaker"], ["tags", "{sneaker,men}"], ["price", 100], ["description", "this is the product"], ["coordinates", "[2, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shirts"], ["tags", "{shirt,women}"], ["price", 200], ["description", "this is the product"], ["coordinates", "[2, 4]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Socks"], ["tags", "{socks,winter}"], ["price", 300], ["description", "this is the product"], ["coordinates", "[2, 5]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Scarf"], ["tags", "{scarf,summer}"], ["price", 400], ["description", "this is the product"], ["coordinates", "[2, 6]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Jacket"], ["tags", "{jacket,just-in}"], ["price", 500], ["description", "this is the product"], ["coordinates", "[2, 7]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sweater"], ["tags", "{sweater,clearence}"], ["price", 600], ["description", "this is the product"], ["coordinates", "[2, 8]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Beachwear"], ["tags", "{beachwear,accessories}"], ["price", 700], ["description", "this is the product"], ["coordinates", "[2, 9]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sandals"], ["tags", "{sandals,fall}"], ["price", 800], ["description", "this is the product"], ["coordinates", "[2, 10]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shorts"], ["tags", "{shorts,spring}"], ["price", 900], ["description", "this is the product"], ["coordinates", "[3, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mType Create (0.7ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Men"], ["description", "Men's Clothing"], ["tags", "{men}"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Women"], ["description", "Women's Clothing"], ["tags", "{women}"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mType Create (0.5ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Winter"], ["description", "Winter Clothing"], ["tags", "{winter}"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Summer"], ["description", "Summer Clothing"], ["tags", "{summer}"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Spring"], ["description", "Spring Clothing"], ["tags", "{spring}"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mType Create (0.4ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fall"], ["description", "Fall Clothing"], ["tags", "{fall}"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mType Create (0.4ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Sale"], ["description", "Sale Clothing"], ["tags", "{sale}"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Clearence"], ["description", "Clearence Clothing"], ["tags", "{clearence}"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Just In"], ["description", "Just In Clothing"], ["tags", "{just-in}"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mType Create (0.2ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Unisex"], ["description", "Unisex Clothing"], ["tags", "{unisex}"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mType Create (0.7ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Accessories"], ["description", "Accessories"], ["tags", "{accessorcies}"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+Migrating to AddDescriptionToArea (8)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "areas" ADD "description" character varying[0m
+  ↳ db/migrate/08_add_description_to_area.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "8"]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2049807313566050745)[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/matthewdeatherage/.rvm/gems/ruby-2.3.3/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:1
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:1
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:1
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:2
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user1@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:2
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:2
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user2@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:4
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user3@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:4
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user4@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user5@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user6@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user7@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user8@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "user9@gmail.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sneaker"], ["tags", "{sneaker,men}"], ["price", 100], ["description", "this is the product"], ["coordinates", "[2, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shirts"], ["tags", "{shirt,women}"], ["price", 200], ["description", "this is the product"], ["coordinates", "[2, 4]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Socks"], ["tags", "{socks,winter}"], ["price", 300], ["description", "this is the product"], ["coordinates", "[2, 5]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Scarf"], ["tags", "{scarf,summer}"], ["price", 400], ["description", "this is the product"], ["coordinates", "[2, 6]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Jacket"], ["tags", "{jacket,just-in}"], ["price", 500], ["description", "this is the product"], ["coordinates", "[2, 7]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sweater"], ["tags", "{sweater,clearence}"], ["price", 600], ["description", "this is the product"], ["coordinates", "[2, 8]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Beachwear"], ["tags", "{beachwear,accessories}"], ["price", 700], ["description", "this is the product"], ["coordinates", "[2, 9]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Sandals"], ["tags", "{sandals,fall}"], ["price", 800], ["description", "this is the product"], ["coordinates", "[2, 10]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("title", "tags", "price", "description", "coordinates", "rfid") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Shorts"], ["tags", "{shorts,spring}"], ["price", 900], ["description", "this is the product"], ["coordinates", "[3, 3]"], ["rfid", "263635DFDFDEEDGG"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mType Create (0.6ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Men"], ["description", "Men's Clothing"], ["tags", "{men}"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Women"], ["description", "Women's Clothing"], ["tags", "{women}"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Winter"], ["description", "Winter Clothing"], ["tags", "{winter}"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Summer"], ["description", "Summer Clothing"], ["tags", "{summer}"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Spring"], ["description", "Spring Clothing"], ["tags", "{spring}"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Fall"], ["description", "Fall Clothing"], ["tags", "{fall}"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mType Create (0.6ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Sale"], ["description", "Sale Clothing"], ["tags", "{sale}"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Clearence"], ["description", "Clearence Clothing"], ["tags", "{clearence}"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Just In"], ["description", "Just In Clothing"], ["tags", "{just-in}"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Unisex"], ["description", "Unisex Clothing"], ["tags", "{unisex}"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mType Create (0.3ms)[0m  [1m[32mINSERT INTO "types" ("name", "description", "tags") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Accessories"], ["description", "Accessories"], ["tags", "{accessorcies}"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mArea Create (6.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 1"], ["coordinates", "{{0,0},{3,6},{6,3},{3,1},{0,0}}"], ["description", "tango"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mArea Create (0.5ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 2"], ["coordinates", "{{3,3},{6,12},{12,6},{6,4},{3,3}}"], ["description", "whiskey"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:37
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 3"], ["coordinates", "{{6,6},{12,14},{14,6},{6,5},{6,6}}"], ["description", "foxtrot"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 4"], ["coordinates", "{{8,8},{14,16},{16,8},{6,8},{8,8}}"], ["description", "alpha"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 5"], ["coordinates", "{{10,10},{16,18},{18,10},{8,10},{10,10}}"], ["description", "beta"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 6"], ["coordinates", "{{12,12},{18,20},{20,12},{10,12},{10,10}}"], ["description", "orion"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:41
+  [1m[36mArea Create (0.6ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 7"], ["coordinates", "{{14,14},{20,22},{22,14},{12,14},{14,14}}"], ["description", "maximus"]]
+  ↳ db/seeds.rb:41
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:41
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:42
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 8"], ["coordinates", "{{16,16},{22,24},{24,16},{14,16},{16,16}}"], ["description", "hercules"]]
+  ↳ db/seeds.rb:42
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:42
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:43
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 9"], ["coordinates", "{{18,18},{24,26},{26,18},{16,18},{18,18}}"], ["description", "poseidon"]]
+  ↳ db/seeds.rb:43
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:44
+  [1m[36mArea Create (0.3ms)[0m  [1m[32mINSERT INTO "areas" ("name", "coordinates", "description") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Area 10"], ["coordinates", "{{20,20},{26,28},{28,20},{18,20},{20,20}}"], ["description", "hera"]]
+  ↳ db/seeds.rb:44
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:44
+  [1m[36mArea Load (0.5ms)[0m  [1m[34mSELECT  "areas".* FROM "areas" LIMIT $1[0m  [["LIMIT", 11]]

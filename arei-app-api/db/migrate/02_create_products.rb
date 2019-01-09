@@ -7,7 +7,7 @@ class CreateProducts < ActiveRecord::Migration[4.2]
       t.string 'tags', array: true
       t.integer 'price'
       t.string 'description'
-      t.point 'coordinates', array:true
+      t.integer 'coordinates', array:true
       t.string "rfid"
       t.integer 'ratings', array: true
     end

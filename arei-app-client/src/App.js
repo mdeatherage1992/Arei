@@ -27,9 +27,13 @@ class App extends Component {
         </div>
       </Router>
       <div class="footer">
-      <p className="left">Left aligned text here<br />Next line here</p>
-      <p className="right">Right aligned text here<br />Next line here</p>
-      <p className="centered">Center Text here<br />Next line here</p>
+      <a href="http://www.google.com" className="left">Careers<br />Next line here</a>
+      <a href="http://www.google.com" className="left">Careers<br />Next line here</a>
+      <a href="http://www.google.com" className="left">Careers<br />Next line here</a>
+
+      <a href="http://www.google.com" className="left">Careers<br />Next line here</a>
+      <a href="http://www.google.com" className="right">Contact<br />Next line here</a>
+      <a href="http://www.google.com" className="centered">About<br />Next line here</a>
       </div>
       </div>
     );

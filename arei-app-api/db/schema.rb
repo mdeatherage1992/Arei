@@ -30,12 +30,19 @@ ActiveRecord::Schema.define(version: 2019_01_06_110057) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
 
+  create_table "areas", id: :serial, force: :cascade do |t|
+    t.string "name"
+    t.string "type"
+    t.integer "coordinates", array: true
+    t.string "description"
+  end
+
   create_table "products", id: :serial, force: :cascade do |t|
     t.string "title"
     t.string "tags", array: true
     t.integer "price"
     t.string "description"
-    t.point "coordinates", array: true
+    t.string "coordinates"
     t.string "rfid"
     t.integer "ratings", array: true
   end
